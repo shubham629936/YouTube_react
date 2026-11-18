@@ -1,0 +1,32 @@
+ .feed{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-column-gap: 16px;
+    grid-row-gap: 30px;
+    margin-top: 15px;
+ }
+ @media (max-width:680px) {
+   
+ }
+ .card img{
+    width: 100%;
+    border-radius: 5px;
+ }
+ .card h2{
+    font-size: 12px;
+    font-weight: 600;
+    margin: 5px 0px;
+ }
+ /* .card:hover{
+    background: rgb(45, 43, 43);
+ } */
+  .card h3{
+    font-size: 10px;
+    font-weight: 600;
+    margin: 6px 0px;
+  }
+  .card p{
+    font-size: 9px;
+    color: rgb(124, 122, 122);
+    font-weight: 600;
+  }
